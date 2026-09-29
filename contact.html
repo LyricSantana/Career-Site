@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Network Engineer | Contact</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
   </head>
   <body>
     <header class="site-header">
@@ -30,27 +30,27 @@
       <section class="two-column">
         <div class="card contact-card">
           <h2>My Information</h2>
-          <p><strong>Name:</strong> Alex Student</p>
-          <p><strong>Email:</strong> alexstudent@example.com</p>
-          <p><strong>Phone:</strong> (555) 123-4567</p>
-          <p><strong>Location:</strong> Midwest, USA</p>
-          <a href="resume.pdf" class="button primary-button" target="_blank">Download Resume (PDF)</a>
+          <p><strong>Name:</strong> Lyric Santana</p>
+          <p><strong>Email:</strong> lyricksantana@gmail.com</p>
+          <p><strong>Phone:</strong> (509) 868-3791</p>
+          <p><strong>Location:</strong> Spokane Valley, Washington</p>
+          <a href="graphics/resume.pdf" class="button primary-button" target="_blank">Download Resume (PDF)</a>
         </div>
 
         <div class="card">
           <h2>Message Me</h2>
-          <form class="contact-form">
+          <form class="contact-form" action="https://formspree.io/f/xjykloqv" method="POST">
             <label>
               Name
-              <input type="text" name="name" placeholder="Your name" />
+              <input type="text" name="name" placeholder="Your name" required >
             </label>
             <label>
               Email
-              <input type="email" name="email" placeholder="Your email" />
+              <input type="email" name="email" placeholder="Your email" required >
             </label>
             <label>
               Message
-              <textarea name="message" rows="5" placeholder="Write a message here"></textarea>
+              <textarea name="message" rows="5" placeholder="Write a message here" required></textarea>
             </label>
             <button type="submit" class="button">Send</button>
           </form>
